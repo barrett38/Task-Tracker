@@ -3,7 +3,6 @@
   font-family: "Matemasie";
   src: url("fonts/Matemasie-Regular.ttf") format("truetype");
 }
-
 .font-matemasie {
   font-family: "Matemasie", sans-serif;
 }
@@ -13,16 +12,32 @@
   font-family: "Cabin";
   src: url("fonts/Cabin.ttf") format("truetype");
 }
-
 .font-cabin {
   font-family: "Cabin", sans-serif;
 }
 
+/* Body */
 body {
   margin: 0;
   font-family: "Cabin", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+
+  font-family: "Cabin", sans-serif;
+  padding: 10px;
+  margin: 20px 0;
+  /* border as placeholder if needed */
+  /* border: 10px solid white; */
+  /* border-radius: 4px; */
 }
 
 code {
@@ -36,6 +51,13 @@ code {
 }
 
 .task {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+
   background: #f4f4f4;
   margin: 10px 0;
   padding: 10px;
