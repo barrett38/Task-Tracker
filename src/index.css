@@ -18,6 +18,8 @@
 
 /* Body */
 body {
+  background-color: gray;
+  height: 100vh;
   margin: 0;
   font-family: "Cabin", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -45,6 +47,8 @@ code {
 }
 
 .container {
+  animation: gradient 10s infinite;
+  height: 100vh; /* Ensure it covers the full viewport height */
   max-width: 500px;
   margin: auto;
   padding: 10px;

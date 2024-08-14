@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./index.css";
 import Header from "./components/Header";
 import TaskList from "./components/TaskList";
 import AddTask from "./components/AddTask";
